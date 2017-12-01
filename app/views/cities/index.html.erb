@@ -1,5 +1,9 @@
 <% @cities.each do |city| %>
 
-<p><%= city.name %></p>
+
+<%= city.name %>
+<ul>
+  <li><%= city.listings %></li>
+</ul>
 
 <% end %>
